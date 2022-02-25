@@ -1,0 +1,17 @@
+https://www.leshylabs.com/apps/sfMaker/
+
+ZAP:
+
+w=Square,W=8000,f=197.974,t=218.426,T=0.425,_=0.018,d=241.335,D=0.11,p=1.485,b=0,r=2.5,s=186,S=74.604,z=Down,g=0.068,l=0.186
+
+SHORT BOOM:
+
+w=Noise,W=44100,f=148.111,v=220.468,V=18.684,t=77.243,T=0.435,_=0.063,d=93.047,D=0.283,p=1.974,a=0.1,A=0.2,r=0.5,s=12,S=5.005,z=Down,g=0.527,l=0.349,N=35,F=316.579,B=Fixed,E=63924
+
+LONG BOOM:
+
+w=Noise,W=44100,f=148.111,v=220.468,V=18.684,t=77.243,T=0.435,_=0.063,d=93.047,D=0.283,p=1.974,a=0.1,A=0.2,r=0.5,s=12,S=5.005,z=Down,g=0.527,l=0.946,N=35,F=316.579,B=Fixed,E=63924
+
+BACKGROUND:
+https://opengameart.org/content/idiots-in-space
+
