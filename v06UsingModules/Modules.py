@@ -29,9 +29,9 @@ game_active = True
 
 while game_active:
     clock.tick(consts.FPS) # Control Game speed
-    
+
     ##### READ USER INPUT
-    
+
     # Check events
     for event in pygame.event.get():
         #print(event)
@@ -44,16 +44,14 @@ while game_active:
         player.left = True
     if keystate[pygame.K_RIGHT]:
         player.right = True
-    if keystate[pygame.K_SPACE]:
-        player.fire = True
 
     ##### UPDATE THE GAME STATE
     all_sprites.update()
-    
+
     ##### RENDER THE GRAPHICS
     display.draw_background(screen)
     all_sprites.draw(screen)
-    
+
     # Show the new frame
     pygame.display.flip()
 
